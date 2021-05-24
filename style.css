@@ -1,0 +1,443 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.logo a{
+	height: 60%;
+	font-family: 'Pattaya', sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+	color: black; 
+	padding: 15px;
+	text-align: left;
+
+}
+header {
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to top, #808080 20%);
+	text-align: left;
+}
+ .navsection{
+width: 100%;
+height: 15vh; background-color: transparent;
+display: flex; 
+align-items: center;
+border-bottom: 1px solid lightgray;
+text-align: left;
+}
+nav{
+width: 80%;
+display: flex;
+text-align: left;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav li{
+	display: inline-block;
+
+}
+
+nav a{
+text-decoration: none;
+color: gray;
+font-weight: bold;
+font-size: 17px;
+width: 100px;
+display: block;
+padding: 10px 1px;
+
+}
+nav a:hover
+{
+cursor: pointer;
+color: red;
+
+
+}
+.navsection input[type="submit"]
+{
+
+	outline: none;
+border: none;
+width: 80px;
+	height: 40px;
+	background: #ea4c89;
+	color: black;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.b1 input[type="submit"]
+{
+
+	outline: none;
+border: none;
+width: 80px;
+top: 10%;
+	height: 40px;
+	background: white;
+	color: black;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.navsection input[type="submit"]:hover
+{
+cursor: pointer;
+background-color: pink;
+
+
+}
+.box1{
+width: 800px;
+height: 90px;
+background: lightgray;
+color: black;
+top: 30%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.box1 input[type="submit"]
+{
+	top: 20px;
+	outline: none;
+border: none;
+width: 120px;
+	height: 55px;
+	background: lightblue;
+	color: white;
+	font-size: 18px;
+	border-radius: 10px;
+	position: relative;
+	left: 15px;
+	
+}
+
+.box1 h4{
+	position: absolute;
+	left: 150px;
+	top: 35%;
+	
+	
+}
+.box1 h5{
+	position: absolute;
+	left: 150px;
+	top: 55%;
+	
+	
+}
+.box1 p{
+
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+font-size: 14px;
+padding-right: 20px 20px 20px;
+padding: 10px 10px;
+cursor: pointer;
+border-radius: 8px;
+display: inline-block;
+margin-right: 50px;
+color: black;
+letter-spacing: 0;
+border: double 2px lightgray;
+background: white;
+position: relative;
+top: 20%;
+left: 500px;
+
+}
+
+.box1 h5{
+	text-align: center;
+	padding: -10px 0 5px;
+	
+}
+aside{
+top: 20%;
+padding: 20px 10px;
+display:  block;
+}
+
+.side .aa{
+
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+	padding: 10px;
+	position: absolute;
+	left: 1220px;
+	padding-top: 20px
+
+}
+
+.box2{
+width: 800px;
+height: 90px;
+background: white;
+color: black;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+}
+.a{
+
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	position: relative;
+	top: 10%;
+	left: 1px
+	
+	}
+	.box2 h3{
+	position: relative;
+	top: -47%;
+	left: 53px;
+
+	
+}
+.box2 h4{
+position: relative;
+	top: -43%;
+	left: 53px;	
+	text-decoration: none;
+}
+.box2 p{
+position: relative;
+	top: -63%;
+	left: 165px;	
+	text-decoration: none;
+}
+.box2 input[type="submit"]
+{
+left: 70%;
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 70px;
+	background: lightgray;
+	color: black;
+	font-size: 17px;
+	border-radius: 8px;
+	position: relative;
+	top: -100%;
+	left: 650px;
+	cursor: pointer;
+}
+
+.image{
+
+cursor: zoom-in;
+top: 110%;
+left: 55%;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+.para h3{
+	font-size: 20px;
+	text-align: center;
+	top: 170%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+
+}
+.para h4{
+	text-align: left ;
+	top: 180%;
+left: 39%;
+font-size: 20px;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+.para h5{
+	font-weight: 800;
+	font-size: 20px;
+	text-align: left ;
+	top: 185%;
+left: 47%;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+.para p{
+	font-weight: 800;
+	font-size: 20px;
+	
+	text-align: left ;
+	top: 190%;
+left: 36%;
+position: absolute;
+transform: translate(-50%, -50%);
+}
+
+ .pic {
+cursor: pointer;
+top: 205%;
+position: absolute;
+
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+
+	
+	left: calc(100% - 55%);
+	
+border-bottom: gray;
+}
+.name h3{
+	font-size: 20px;
+	text-align: center;
+	top: 215%;
+left: 48%;
+position: absolute;
+transform: translate(-50%, -50%);
+
+}
+.name h4{
+	font-size: 20px;
+	text-align: center;
+	top: 230%;
+left: 10%;
+position: absolute;
+transform: translate(-50%, -50%);
+
+}
+.name h5{
+	font-size: 17px;
+	text-align: center;
+	top: 230%;
+left: 80%;
+position: absolute;
+transform: translate(-50%, -50%);
+color: red;
+text-decoration: underline;
+cursor: pointer; 
+}
+
+.box4{
+width: 1315px;
+height: 500px;
+background: lightgray;
+color: black;
+top: 330%;
+left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+}
+.box4 h1{
+color: red;
+font-family: 'Pattaya', sans-serif;
+top: 30%;
+left: 8%;
+position: absolute;
+
+}
+.box4 p{
+top: 38%;
+position: absolute;
+left: 8%;
+}
+.box4 h2{
+
+top: 30%;
+left: 30%;
+position: absolute;
+}
+.box4 ul{
+top: 37%;
+left: 31%;
+position: absolute;
+text-decoration: none;
+
+}
+
+.inbox  h3{
+top: 314%;
+left: 45%;
+position: absolute;
+
+}
+
+.inbox  ul{
+top: 319%;
+left: 46%;
+position: absolute;
+text-decoration: none;
+}
+
+.inbox1  h3{
+top: 330%;
+left: 45%;
+position: absolute;
+
+}
+.inbox1  ul{
+top: 335%;
+left: 45%;
+position: absolute;
+text-decoration: none;
+}
+.inbox2  h3{
+top: 314%;
+left: 62%;
+position: absolute;
+
+}
+.inbox2  ul{
+top: 319%;
+left: 64%;
+position: absolute;
+text-decoration: none;
+}
+.inbox3  h3{
+top: 314%;
+left: 72%;
+position: absolute;
+text-decoration: none;
+}
+.inbox3  ul{
+top: 319%;
+left: 74%;
+position: absolute;
+text-decoration: none;
+}
+footer {
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(to top, #808080 20%);
+	background-color: transparent;
+	border-color: darkgray;
+
+}
+.last p{
+
+
+top: 365%;
+left: 5%;
+position: absolute;
+color: gray;
+
+}
+.flast p{
+
+font-weight: bold;
+top: 365%;
+left: 80%;
+position: absolute;
+color: black;
+
+}
